@@ -25,7 +25,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="w-screen p-4 shadow-lg md:flex md:items-center md:py-4 md:shadow-none">
+    <div className="w-screen p-4 shadow-lg md:flex md:items-center md:py-4 md:shadow-none md:justify-between md:px-14">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-1">
           <FaComputer className="text-2xl text-emerald-500" />
