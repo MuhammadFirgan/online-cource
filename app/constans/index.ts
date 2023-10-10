@@ -4,7 +4,7 @@ export const footerLinks = [
         title: "Popular Career",
         links: [
           { title: "Web Developer", url: "/" },
-          { title: "Mobile App Developer", url: "/" },
+          { title: "Mobile Developer", url: "/" },
           { title: "Ethical Hacking", url: "/" },
           { title: "Data Analyst", url: "/" },
         ],
