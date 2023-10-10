@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { NextFont } from "next/dist/compiled/@next/font";
 import { Poppins } from 'next/font/google'
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 export const poppins: NextFont = Poppins({
   weight: ['400', '600'],
@@ -21,9 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`overflow-hidden ${poppins.className}`}>
+      <body className={`relative overflow-x-hidden ${poppins.className}`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
